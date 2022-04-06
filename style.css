@@ -1,0 +1,59 @@
+body{
+    background-color: darkslateblue;
+    width: 600px;
+    margin: 0 auto;
+}
+.header{
+    padding: 0 20 20 20 ;
+    /* width: 600px; */
+    height: 959px;
+    margin: 0 auto;
+
+    background-color: orange;
+    border: solid 5px black;
+    padding: 20 0;
+
+
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    /* height: 100%; */
+}
+ img{
+
+    display: block;
+    margin: 0 auto;
+}
+.header p{
+    margin-left: 10px;
+    /* padding: 2px; */
+}
+ /* li{
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-left: 2px;
+} */
+
+.description{
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  }
+
+ @media (min-device-width:800px) {
+        img[data-src-800px] {
+            content: attr(data-src-800px, url);
+        }
+    }
